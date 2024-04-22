@@ -1,0 +1,23 @@
+body{
+  background-color: hsl(0, 0%, 80%);
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  min-width: 100vw;
+  align-items: center;
+}
+.clok-container{
+  width: 100%;
+  padding: 10px 0;
+}
+.clock{
+  color: #333333;
+  font-size: 6rem;
+  font-weight: bold;
+  font-family: monospace;
+  text-align: center;
+  text-shadow: 3px 3px 5px hsla(0, 0%, 0%, 0.75);
+}
